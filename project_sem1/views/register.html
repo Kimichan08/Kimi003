@@ -1,0 +1,58 @@
+<!-- Header Start -->
+<div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
+    <div class="container text-center py-5">
+        <h3 class="text-white display-3 mb-4">Register</h3>
+        <div class="d-inline-flex align-items-center text-white">
+            <p class="m-0"><a class="text-white" href="#!/">Home</a></p>
+            <i class="far fa-circle px-3"></i>
+            <p class="m-0">Register</p>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+<!-- Register Start  -->
+<div class="container">
+    <div class="login m-auto">
+        <div class="">
+            <div class="bg-light p-5 my-lg-5">
+                <h5 class="text-white text-uppercase bg-primary py-1 mb-3 text-center">Create Account</h5>
+               
+                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                   
+                    <div class="control-group mt-4">
+                        <label for="" class="text-dark">First Name</label>
+                        <input type="text" class="form-control border-0 p-4" id="firstName" placeholder="First Name"
+                            required="required" data-validation-required-message="Please enter a firstName" />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="control-group mt-4">
+                        <label for="" class="text-dark">Last Name</label>
+                        <input type="text" class="form-control border-0 p-4" id="lastName" placeholder="Last Name"
+                            required="required" data-validation-required-message="Please enter a lastName" />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="control-group mt-4">
+                        <label for="" class="text-dark">Email</label>
+                        <input type="text" class="form-control border-0 p-4" id="email" placeholder="Email"
+                            required="required" data-validation-required-message="Please enter a email" />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="control-group mt-4">
+                        <label for="" class="text-dark">Password</label>
+                        <input type="password" class="form-control border-0 p-4" id="password" ng-model="pass" placeholder="Password"
+                            required="required" data-validation-required-message="Please enter a password" />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                   
+                    <div>
+                        <button class="btn btn-primary py-3 px-4 mb-4 text-uppercase" type="submit" id="sendMessageButton">Create</button>
+                    </div>
+
+                    <a href="#!login " class="pt-3 text-decoration-none">Return to Logn in</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Register End  -->
